@@ -12,10 +12,11 @@ public class Main {
         int z = add(x, y);
     }
 
-    public void printname(String name)
+    private String print(String input)
     {
-        System.out.println(name);
+        return input;
     }
+    
     private static int add(int x, int y) {
         int z= x+y;
         return z;
