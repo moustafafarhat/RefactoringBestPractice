@@ -7,8 +7,5 @@ public class base
         return input;
     }
 
-    private static int add(int x, int y) {
-        int z= x+y;
-        return z;
-    }
+
 }
